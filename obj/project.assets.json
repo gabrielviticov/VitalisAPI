@@ -1723,6 +1723,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.EntityFrameworkCore >= 6.0.24",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.24",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.24",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -1765,6 +1766,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.24, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[6.0.24, )"
