@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/gabrielviticov/Documents/projects/VitalisAPI/VitalisAPI.csproj": {}
+    "/home/gabrielviticov/github/VitalisAPI/VitalisAPI.csproj": {}
   },
   "projects": {
-    "/home/gabrielviticov/Documents/projects/VitalisAPI/VitalisAPI.csproj": {
+    "/home/gabrielviticov/github/VitalisAPI/VitalisAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gabrielviticov/Documents/projects/VitalisAPI/VitalisAPI.csproj",
+        "projectUniqueName": "/home/gabrielviticov/github/VitalisAPI/VitalisAPI.csproj",
         "projectName": "VitalisAPI",
-        "projectPath": "/home/gabrielviticov/Documents/projects/VitalisAPI/VitalisAPI.csproj",
+        "projectPath": "/home/gabrielviticov/github/VitalisAPI/VitalisAPI.csproj",
         "packagesPath": "/home/gabrielviticov/.nuget/packages/",
-        "outputPath": "/home/gabrielviticov/Documents/projects/VitalisAPI/obj/",
+        "outputPath": "/home/gabrielviticov/github/VitalisAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gabrielviticov/.nuget/NuGet/NuGet.Config"
@@ -38,13 +38,7 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.24, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.24, )"
             },
@@ -65,10 +59,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -77,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.124/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
